@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: white;
+    max-width: 100%;
+}
+
+h1 {
+    position: absolute;
+    left: 60%;
+    top: 220px;
+}
+
+.lorem{
+    position: absolute;
+    left: 60%;
+    top: 95%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 7% 10% 10%;
+    text-align: center;
+    position: relative;
+    left: 58%;
+    top: 18%;
+}
+
+.roundImgs {
+    display: grid;
+    grid-template-columns: 35% 36% 10%;
+    position: relative;
+    left: 50%;
+    top: -400px;
+}
+
+.nav {
+    width: 85%;
+    margin: 25px;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* NavBar Buttons */
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.nav ul li::after {
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #607EAA;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+.nav ul li:hover::after {
+    width: 100%;
+}
+
+.mainImages {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+}
+
+.leftImg {
+    position: absolute;
+    top: 25%;
+    left: -100px;
+}
